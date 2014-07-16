@@ -7,10 +7,18 @@ html, body {
     background-color: black;
 }
 
+#HUD
+{
+    width:400px;
+    height:100%;
+    border-right:solid white 1px;
+}
+
 #sun {
     position: absolute;
     /* Positions the top-left corner of the image to be *
     /* in the middle of the box */
+    z-index:5;
     top: 50%;
     left: 50%;
     
@@ -68,7 +76,6 @@ html, body {
     height:600px;
     margin-top: -250px;
     margin-left: -250px;
-
 
     border-radius: 50%;
     

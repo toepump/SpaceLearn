@@ -1,21 +1,23 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css" />
+        
     </head>
     
     <body>
         <!-- Right below is an image of the sun -->
-        <img id="sun" src="http://goo.gl/dEEssP">
+        <div id="HUD"></div>
+        
+        <img id="sun" src="http://goo.gl/dEEssP" onmouseover="sunInfo()" onmouseout="endSunInfo()">
         
         <!-- Insert the 'earth' on the next line -->
-        <div id = "earth-orbit">
+        <div id = "earth-orbit"  >
             <div id="moon-orbit">
                 <div id = "moon"></div>
             </div>
             <img id="earth" src="http://goo.gl/o3YWu9">
         </div>
         
-
-        
+        <script src="interact.js"></script>
     </body>
 </html>
