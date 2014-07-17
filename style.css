@@ -4,21 +4,25 @@ html, body {
     height: 100%;
     
     /* The universe is black */
-    background-color: black;
+    
 }
 
 #HUD
 {
+    background-color:black;
     width:400px;
     height:100%;
     border-right:solid white 1px;
 }
 
 #sun {
+   
     position: absolute;
     /* Positions the top-left corner of the image to be *
     /* in the middle of the box */
     z-index:5;
+    
+    background-color:red;
     top: 50%;
     left: 50%;
     
@@ -36,9 +40,13 @@ html, body {
     box-shadow: 0 0 1000px yellow;
 }
 
-#earth {
+#earth 
+{
+    pointer-events:auto;
     /* Style your earth */
     position: absolute;
+    background-color:blue;
+    z-index:5;
     top: 0;
     left: 50%;
     
@@ -51,12 +59,13 @@ html, body {
     border-width: 2px;
     border-style: solid;
     border-radius:50%;
-    
 }
 
 #moon
 {
+    
     background-color:#ccc;
+    z-index:5;
     position:absolute;
     top:0px;
     left: 50%;
@@ -67,8 +76,13 @@ html, body {
 }
 
 #earth-orbit {
+   
+    
     /* For Section #2 */
+    pointer-events:none;
+    
     position: absolute;
+    z-index:0;
     top: 50%;
     left: 50%;
 
@@ -77,18 +91,22 @@ html, body {
     margin-top: -250px;
     margin-left: -250px;
 
+    border:solid white 1px;
     border-radius: 50%;
     
-    -webkit-animation: spin-right 10s linear infinite;
+/*    -webkit-animation: spin-right 10s linear infinite;
      -moz-animation: spin-right 10s linear infinite;
       -ms-animation: spin-right 10s linear infinite;
        -o-animation: spin-right 10s linear infinite;
-          animation: spin-right 10s linear infinite;
+          animation: spin-right 10s linear infinite;*/
 }
 
 #moon-orbit
 {
+  
+    
     position: absolute;
+    z-index:0;
     top: 0%;
     left: 50%;
 
@@ -97,13 +115,14 @@ html, body {
     margin-top: -36px;
     margin-left: -70px;
 
+    border:solid white 1px;
     border-radius: 50%;
     
-    -webkit-animation: spin-right 10s linear infinite;
+/*    -webkit-animation: spin-right 10s linear infinite;
      -moz-animation: spin-right 10s linear infinite;
       -ms-animation: spin-right 10s linear infinite;
        -o-animation: spin-right 10s linear infinite;
-          animation: spin-right 10s linear infinite;
+          animation: spin-right 10s linear infinite;*/
 }
 
 @-webkit-keyframes spin-right {
