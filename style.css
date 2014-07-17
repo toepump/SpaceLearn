@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Aldrich);
+@import url(http://fonts.googleapis.com/css?family=Finger+Paint);
+
 html, body {
     /* The universe takes up all available space */
     width: 100%;
@@ -10,7 +13,7 @@ html, body {
 #instruct
 {
     color:white;
-    font-family:"futura";
+    font-family:"Finger Paint";
     float:right;
     margin-right:3%;
 }
@@ -20,7 +23,7 @@ html, body {
     float:left;
     width:400px;
     height:100%;
-    border-right:solid white 1px;
+    border-right:solid grey 5px;
 }
 
 #control
@@ -30,6 +33,7 @@ html, body {
     margin-left:5%;
     background-color:#ccc;
     border-radius:18px;
+    font-family:"Finger Paint";
 }
 
 #sun {

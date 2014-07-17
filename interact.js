@@ -37,7 +37,7 @@ function sunInfo()
     element.appendChild(para);
     element.style.color = "white";
     element.style.textAlign = "center";
-    element.style.fontFamily = "Futura";
+    element.style.fontFamily = "Finger Paint";
     
     //photo
     var img = document.createElement("img");
@@ -50,11 +50,24 @@ function sunInfo()
     //info
     var br = document.createElement("br");
     var info = document.createElement("p");
-    var node2 = document.createTextNode("Distance from Earth: 1.496x10^8 km");
+    var node2 = document.createTextNode("Distance from Earth: 1.496 x 10^8 km");
     var node3 = document.createTextNode("Age: 4.6 billion years");
+    var node4 = document.createTextNode("Diameter: 4.6 billion years");
+    var node5 = document.createTextNode("Mass: 4.6 billion years");
+    var node6 = document.createTextNode("Gravitational Acceleration: 4.6 billion years");
+    
     info.appendChild(node2);
     info.appendChild(br);
     info.appendChild(node3);
+    info.appendChild(br);
+    info.appendChild(node4);
+    info.appendChild(br);
+    info.appendChild(node5);
+    info.appendChild(br);
+    info.appendChild(node6);
+    
+    info.style.textAlign = "left";
+    
     var element2 = document.getElementById("HUD");
     element2.appendChild(info);
 }
@@ -71,7 +84,7 @@ function earthInfo()
     element.appendChild(para);
     element.style.color = "white";
     element.style.textAlign = "center";
-    element.style.fontFamily = "Futura";
+    element.style.fontFamily = "Finger Paint";
     
     var img = document.createElement("img");
     img.src = "images/earth.jpg";
