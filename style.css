@@ -31,9 +31,15 @@ html, body {
     float:left;
     padding:5px 5px 5px 5px;
     margin-left:5%;
+    margin-top:13px;
     background-color:#ccc;
     border-radius:18px;
     font-family:"Finger Paint";
+}
+
+span:hover
+{
+    cursor:pointer;
 }
 
 #sun {
@@ -77,6 +83,8 @@ html, body {
     border-width: 2px;
     border-style: solid;
     border-radius:50%;
+    
+    box-shadow: 0 0 100px white;
 }
 
 #moon
@@ -91,6 +99,8 @@ html, body {
     height:18px;
     border-radius:50%;
     border:solid white 3px;
+    
+    box-shadow: 0 0 30px white;
 }
 
 #earth-orbit {
@@ -105,7 +115,7 @@ html, body {
     margin-top: -250px;
     margin-left: -250px;
 
-    border:dotted white 1px;
+/*    border:dotted white 1px;*/
     border-radius: 50%;
     
     -webkit-animation: spin-right 20s linear infinite;
@@ -127,7 +137,7 @@ html, body {
     margin-top: -50px;
     margin-left: -70px;
 
-    border:dotted white 1px;
+/*    border:dotted white 1px;*/
     border-radius: 50%;
     
     -webkit-animation: spin-right 10s linear infinite;

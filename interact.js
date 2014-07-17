@@ -7,7 +7,7 @@ function control()
     var cont = document.getElementById("control");
     var earth = document.getElementById("earth-orbit");
     var moon = document.getElementById("moon-orbit");
-    
+        
     if(play)
     {
         cont.style.backgroundColor = "yellow";
