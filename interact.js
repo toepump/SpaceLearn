@@ -1,11 +1,10 @@
 var audio = new Audio("sounds/pop.mp3");
 
-$("#sun").onmouseover(function(e){
-    e.stopPropagation();
-});
+
 
 function sunInfo()
 {
+    endInfo();
     audio.play();
     
     //planet name
@@ -36,13 +35,28 @@ function sunInfo()
     info.appendChild(node3);
     var element2 = document.getElementById("HUD");
     element2.appendChild(info);
-    
-    stopPropogation();
 }
 
 function earthInfo()
 {
-    event.stopPropagation ? event.stopPropagation() : (event.cancelBubble=true)
+    endInfo();
+    audio.play();
+    
+    var para = document.createElement("h2");
+    var node = document.createTextNode("The Earth");
+    para.appendChild(node);
+    var element = document.getElementById("HUD");
+    element.appendChild(para);
+    element.style.color = "white";
+    element.style.textAlign = "center";
+    element.style.fontFamily = "Futura";
+    
+    var img = document.createElement("img");
+    img.src = "images/earth.jpg";
+    var src = document.getElementById("HUD");
+    img.style.height = "250px";
+    img.style.height = "250px";
+    src.appendChild(img);
 }
 
 function endInfo()

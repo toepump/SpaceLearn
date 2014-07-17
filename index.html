@@ -6,16 +6,17 @@
     
     <body>
         <!-- Right below is an image of the sun -->
+        <p id = "instruct">Discover Planets by Moving Your Mouse Over Them</p>
         <div id="HUD"></div>
         
-        <div id="sun" onmouseover="sunInfo()" onmouseout = "endInfo()"></div>
+        <div id="sun" onmouseover="sunInfo()"></div>
         
         <!-- Insert the 'earth' on the next line -->
         <div id = "earth-orbit" >
             <div id="moon-orbit">
                 <div id = "moon"></div>
             </div>
-            <div id="earth" onmouseover()></div>
+            <div id="earth" onmouseover="earthInfo()"></div>
         </div>
         
         <script src="interact.js"></script>
