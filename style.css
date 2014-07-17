@@ -17,9 +17,19 @@ html, body {
 
 #HUD
 {
+    float:left;
     width:400px;
     height:100%;
     border-right:solid white 1px;
+}
+
+#control
+{
+    float:left;
+    padding:5px 5px 5px 5px;
+    margin-left:5%;
+    background-color:#ccc;
+    border-radius:18px;
 }
 
 #sun {

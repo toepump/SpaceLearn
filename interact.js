@@ -1,6 +1,28 @@
 var audio = new Audio("sounds/pop.mp3");
+var play = true;
 
 
+function control()
+{
+    var cont = document.getElementById("control");
+    var earth = document.getElementById("earth-orbit");
+    var moon = document.getElementById("moon-orbit");
+    
+    if(play)
+    {
+        cont.style.backgroundColor = "yellow";
+        play=false;
+        earth.style.webkitAnimationPlayState="paused";
+        moon.style.webkitAnimationPlayState="paused";
+    }
+    else
+    {
+        cont.style.backgroundColor = "#ccc";
+        play=true;
+        earth.style.webkitAnimationPlayState="running";
+        moon.style.webkitAnimationPlayState="running";
+    }
+}
 
 function sunInfo()
 {
