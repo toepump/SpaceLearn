@@ -26,6 +26,7 @@ html, body {
     border-right:solid grey 5px;
 }
 
+
 #control
 {
     float:left;
@@ -53,8 +54,8 @@ span:hover
     left: 65%;
     
     /* Play with these numbers to see what it does */
-    height: 140px;
-    width: 140px;
+    height: 100px;
+    width: 100px;
     margin-top: -100px; 
     margin-left: -100px;
     
@@ -71,11 +72,11 @@ span:hover
     /* Style your earth */
     position: absolute;
     background-color:blue;
-    top: -25px;
+    top: -10px;
     left: 50%;
     
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
     margin-left: -25px;
     margin-right: -25px;
     
@@ -93,10 +94,10 @@ span:hover
     background-color:#ccc;
     z-index:5;
     position:absolute;
-    top:-9px;
+    top:-4px;
     left: 50%;
-    width:18px;
-    height:18px;
+    width:8px;
+    height:8px;
     border-radius:50%;
     border:solid white 3px;
     
@@ -107,22 +108,22 @@ span:hover
     /* For Section #2 */
     position: absolute;
     z-index:0;
-    top: 45%;
+    top: 55%;
     left: 65%;
 
-    width: 600px;
-    height:600px;
-    margin-top: -250px;
-    margin-left: -250px;
+    width: 300px;
+    height:300px;
+    margin-top: -240px;
+    margin-left: -220px;
 
-/*    border:dotted white 1px;*/
+    border:dotted white 1px;
     border-radius: 50%;
     
-    -webkit-animation: spin-right 20s linear infinite;
+/*    -webkit-animation: spin-right 20s linear infinite;
      -moz-animation: spin-right 20s linear infinite;
       -ms-animation: spin-right 20s linear infinite;
        -o-animation: spin-right 20s linear infinite;
-          animation: spin-right 20s linear infinite;
+          animation: spin-right 20s linear infinite;*/
 }
 
 #moon-orbit
@@ -130,21 +131,21 @@ span:hover
     position: absolute;
     z-index:0;
     top: 0%;
-    left: 50%;
+    left: 63%;
 
-    width: 140px;
-    height: 140px;
-    margin-top: -50px;
-    margin-left: -70px;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: -80px;
 
-/*    border:dotted white 1px;*/
+    border:dotted white 1px;
     border-radius: 50%;
     
-    -webkit-animation: spin-right 10s linear infinite;
+/*    -webkit-animation: spin-right 10s linear infinite;
      -moz-animation: spin-right 10s linear infinite;
       -ms-animation: spin-right 10s linear infinite;
        -o-animation: spin-right 10s linear infinite;
-          animation: spin-right 10s linear infinite;
+          animation: spin-right 10s linear infinite;*/
 }
 
 @-webkit-keyframes spin-right {

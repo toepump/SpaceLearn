@@ -11,6 +11,7 @@ function control()
     if(play)
     {
         cont.style.backgroundColor = "yellow";
+        cont.innerHTML = "Start";
         play=false;
         earth.style.webkitAnimationPlayState="paused";
         moon.style.webkitAnimationPlayState="paused";
@@ -18,6 +19,7 @@ function control()
     else
     {
         cont.style.backgroundColor = "#ccc";
+        cont.innerHTML = "Stop";
         play=true;
         earth.style.webkitAnimationPlayState="running";
         moon.style.webkitAnimationPlayState="running";
@@ -49,6 +51,9 @@ function sunInfo()
     
     //info
     var br = document.createElement("br");
+    var br2 = document.createElement("br");
+    var br3 = document.createElement("br");
+    var br4 = document.createElement("br");
     var info = document.createElement("p");
     var node2 = document.createTextNode("Distance from Earth: 1.496 x 10^8 km");
     var node3 = document.createTextNode("Age: 4.6 billion years");
@@ -59,11 +64,11 @@ function sunInfo()
     info.appendChild(node2);
     info.appendChild(br);
     info.appendChild(node3);
-    info.appendChild(br);
+    info.appendChild(br2);
     info.appendChild(node4);
-    info.appendChild(br);
+    info.appendChild(br3);
     info.appendChild(node5);
-    info.appendChild(br);
+    info.appendChild(br4);
     info.appendChild(node6);
     
     info.style.textAlign = "left";
