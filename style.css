@@ -150,10 +150,8 @@ span:hover
     margin-top: -130px;
     margin-left: -125px;
 
-    border:dotted white 1px;
+/*    border:dotted white 1px;*/
     border-radius: 50%;
-    
-    
     
     -webkit-animation: spin-right 8s linear infinite;
      -moz-animation: spin-right 8s linear infinite;
@@ -174,7 +172,7 @@ span:hover
     margin-top: -145px;
     margin-left: -140px;
 
-    border:dotted white 1px;
+/*    border:dotted white 1px;*/
     border-radius: 50%;
     
     -webkit-animation: spin-right 13s linear infinite;
@@ -196,7 +194,7 @@ span:hover
     margin-top: -240px;
     margin-left: -210px;
 
-    border:dotted white 1px;
+/*    border:dotted white 1px;*/
     border-radius: 50%;
         
     -webkit-animation: spin-right 20s linear infinite;
@@ -218,7 +216,7 @@ span:hover
     margin-top: -25px;
     margin-left: -80px;
 
-    border:dotted white 1px;
+/*    border:dotted white 1px;*/
     border-radius: 50%;
     
     -webkit-animation: spin-right 10s linear infinite;
