@@ -13,6 +13,7 @@ function control()
     var moon = document.getElementById("moon-orbit");
     var mars = document.getElementById("mars-orbit");
     var jupiter = document.getElementById("jupiter-orbit");
+    var saturn = document.getElementById("saturn-orbit");
         
     if(play)
     {
@@ -25,6 +26,7 @@ function control()
         moon.style.webkitAnimationPlayState="paused";
         mars.style.webkitAnimationPlayState="paused";
         jupiter.style.webkitAnimationPlayState="paused";
+        saturn.style.webkitAnimationPlayState="paused";
     }
     else
     {
@@ -37,6 +39,7 @@ function control()
         moon.style.webkitAnimationPlayState="running";
         mars.style.webkitAnimationPlayState="running";
         jupiter.style.webkitAnimationPlayState="running";
+        saturn.style.webkitAnimationPlayState="running";
     }
 }
 
@@ -225,6 +228,30 @@ function jupiterInfo()
     //photo
     var img = document.createElement("img");
     img.src = "images/jupiter.png";
+    var src = document.getElementById("HUD");
+    img.style.height = "350px";
+    img.style.height = "350px";
+    src.appendChild(img);
+}
+
+function saturnInfo()
+{
+    endInfo();
+    audio.play();
+    
+    //planet name
+    var para = document.createElement("h2");
+    var node = document.createTextNode("Saturn");
+    para.appendChild(node);
+    var element = document.getElementById("HUD");
+    element.appendChild(para);
+    element.style.color = "white";
+    element.style.textAlign = "center";
+    element.style.fontFamily = "Finger Paint";
+    
+    //photo
+    var img = document.createElement("img");
+    img.src = "images/saturnc.png";
     var src = document.getElementById("HUD");
     img.style.height = "350px";
     img.style.height = "350px";
