@@ -14,7 +14,9 @@ function control()
     var mars = document.getElementById("mars-orbit");
     var jupiter = document.getElementById("jupiter-orbit");
     var saturn = document.getElementById("saturn-orbit");
-        
+    var uranus = document.getElementById("uranus-orbit");
+    var neptune = document.getElementById("neptune-orbit");
+    
     if(play)
     {
         cont.style.backgroundColor = "yellow";
@@ -27,6 +29,8 @@ function control()
         mars.style.webkitAnimationPlayState="paused";
         jupiter.style.webkitAnimationPlayState="paused";
         saturn.style.webkitAnimationPlayState="paused";
+        uranus.style.webkitAnimationPlayState="paused";
+        neptune.style.webkitAnimationPlayState="paused";
     }
     else
     {
@@ -40,6 +44,8 @@ function control()
         mars.style.webkitAnimationPlayState="running";
         jupiter.style.webkitAnimationPlayState="running";
         saturn.style.webkitAnimationPlayState="running";
+        uranus.style.webkitAnimationPlayState="running";
+        neptune.style.webkitAnimationPlayState="running";
     }
 }
 
@@ -252,6 +258,54 @@ function saturnInfo()
     //photo
     var img = document.createElement("img");
     img.src = "images/saturnc.png";
+    var src = document.getElementById("HUD");
+    img.style.height = "350px";
+    img.style.height = "350px";
+    src.appendChild(img);
+}
+
+function uranusInfo()
+{
+    endInfo();
+    audio.play();
+    
+    //planet name
+    var para = document.createElement("h2");
+    var node = document.createTextNode("Uranus");
+    para.appendChild(node);
+    var element = document.getElementById("HUD");
+    element.appendChild(para);
+    element.style.color = "white";
+    element.style.textAlign = "center";
+    element.style.fontFamily = "Finger Paint";
+    
+    //photo
+    var img = document.createElement("img");
+    img.src = "images/uranus.png";
+    var src = document.getElementById("HUD");
+    img.style.height = "350px";
+    img.style.height = "350px";
+    src.appendChild(img);
+}
+
+function neptuneInfo()
+{
+    endInfo();
+    audio.play();
+    
+    //planet name
+    var para = document.createElement("h2");
+    var node = document.createTextNode("Neptune");
+    para.appendChild(node);
+    var element = document.getElementById("HUD");
+    element.appendChild(para);
+    element.style.color = "white";
+    element.style.textAlign = "center";
+    element.style.fontFamily = "Finger Paint";
+    
+    //photo
+    var img = document.createElement("img");
+    img.src = "images/neptune.png";
     var src = document.getElementById("HUD");
     img.style.height = "350px";
     img.style.height = "350px";
