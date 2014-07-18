@@ -11,7 +11,7 @@ function control()
     var venus = document.getElementById("venus-orbit");
     var earth = document.getElementById("earth-orbit");
     var moon = document.getElementById("moon-orbit");
-    
+    var mars = document.getElementById("mars-orbit");
         
     if(play)
     {
@@ -22,6 +22,7 @@ function control()
         venus.style.webkitAnimationPlayState="paused";
         earth.style.webkitAnimationPlayState="paused";
         moon.style.webkitAnimationPlayState="paused";
+        mars.style.webkitAnimationPlayState="paused";
     }
     else
     {
@@ -32,6 +33,7 @@ function control()
         venus.style.webkitAnimationPlayState="running";
         earth.style.webkitAnimationPlayState="running";
         moon.style.webkitAnimationPlayState="running";
+        mars.style.webkitAnimationPlayState="running";
     }
 }
 
@@ -172,6 +174,30 @@ function moonInfo()
     //photo
     var img = document.createElement("img");
     img.src = "images/moonhd.png";
+    var src = document.getElementById("HUD");
+    img.style.height = "350px";
+    img.style.height = "350px";
+    src.appendChild(img);
+}
+
+function marsInfo()
+{
+    endInfo();
+    audio.play();
+    
+    //planet name
+    var para = document.createElement("h2");
+    var node = document.createTextNode("Mars");
+    para.appendChild(node);
+    var element = document.getElementById("HUD");
+    element.appendChild(para);
+    element.style.color = "white";
+    element.style.textAlign = "center";
+    element.style.fontFamily = "Finger Paint";
+    
+    //photo
+    var img = document.createElement("img");
+    img.src = "images/mars.png";
     var src = document.getElementById("HUD");
     img.style.height = "350px";
     img.style.height = "350px";
