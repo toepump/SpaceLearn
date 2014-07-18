@@ -152,10 +152,23 @@ span:hover
     box-shadow: 0 0 30px white;
 }
 
+#jupiter
+{
+    z-index:14;
+    position:absolute;
+    top:-35px;
+    left: 50%;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    
+    box-shadow: 0 0 30px white;
+}
+
 #mercury-orbit {
     /* For Section #2 */
     position: absolute;
-    z-index:19;
+    z-index:18;
     top: 50%;
     left: 65%;
 
@@ -177,7 +190,7 @@ span:hover
 #venus-orbit {
     /* For Section #2 */
     position: absolute;
-    z-index:18;
+    z-index:17;
     top: 50%;
     left: 65%;
 
@@ -199,7 +212,7 @@ span:hover
 #earth-orbit {
     /* For Section #2 */
     position: absolute;
-    z-index:17;
+    z-index:16;
     top: 55%;
     left: 65%;
 
@@ -221,7 +234,7 @@ span:hover
 #moon-orbit
 {
     position: absolute;
-    z-index:16;
+    z-index:15;
     top: 0%;
     left: 63%;
 
@@ -244,7 +257,7 @@ span:hover
 {
     /* For Section #2 */
     position: absolute;
-    z-index:15;
+    z-index:14;
     top: 55%;
     left: 65%;
 
@@ -256,11 +269,38 @@ span:hover
     border:dotted white 1px;
     border-radius: 50%;
         
+
+    
     -webkit-animation: spin-right 25s linear infinite;
      -moz-animation: spin-right 25s linear infinite;
       -ms-animation: spin-right 25s linear infinite;
        -o-animation: spin-right 25s linear infinite;
           animation: spin-right 25s linear infinite;
+}
+
+#jupiter-orbit
+{
+    /* For Section #2 */
+    position: absolute;
+    z-index:13;
+    top: 55%;
+    left: 65%;
+
+    width: 500px;
+    height:500px;
+    margin-top: -300px;
+    margin-left: -290px;
+
+    border:dotted white 1px;
+    border-radius: 50%;
+
+
+    
+    -webkit-animation: spin-right 30s linear infinite;
+     -moz-animation: spin-right 30s linear infinite;
+      -ms-animation: spin-right 30s linear infinite;
+       -o-animation: spin-right 30s linear infinite;
+          animation: spin-right 30s linear infinite;
 }
 
 @-webkit-keyframes spin-right {
