@@ -157,10 +157,10 @@ span:hover
 {
     z-index:14;
     position:absolute;
-    top:-25px;
+    top:-17px;
     left: 50%;
-    width:50px;
-    height:50px;
+    width:40px;
+    height:40px;
     border-radius:50%;
     
     box-shadow: 0 0 30px white;
@@ -170,10 +170,10 @@ span:hover
 {
     z-index:13;
     position:absolute;
-    top:-40px;
+    top:-25px;
     left: 50%;
-    width:60px;
-    height:60px;
+    width:50px;
+    height:50px;
 /*    border-radius:50%;*/
 }
 
@@ -181,10 +181,10 @@ span:hover
 {
     z-index:12;
     position:absolute;
-    top:-40px;
+    top:-15px;
     left: 50%;
-    width:40px;
-    height:40px;
+    width:35px;
+    height:35px;
 /*    border-radius:50%;*/
 }
 
@@ -192,10 +192,10 @@ span:hover
 {
     z-index:11;
     position:absolute;
-    top:-40px;
+    top:-15px;
     left: 50%;
-    width:35px;
-    height:35px;
+    width:30px;
+    height:30px;
 /*    border-radius:50%;*/
 }
 
@@ -206,10 +206,10 @@ span:hover
     top: 50%;
     left: 65%;
 
-    width: 150px;
-    height:150px;
-    margin-top: -130px;
-    margin-left: -125px;
+    width: 130px;
+    height:130px;
+    margin-top: -115px;
+    margin-left: -110px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -234,10 +234,10 @@ span:hover
     top: 50%;
     left: 65%;
 
-    width: 187px;
-    height:187px;
-    margin-top: -145px;
-    margin-left: -140px;
+    width: 175px;
+    height:175px;
+    margin-top: -140px;
+    margin-left: -135px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -256,10 +256,10 @@ span:hover
     top: 55%;
     left: 65%;
 
-    width: 300px;
-    height:300px;
-    margin-top: -240px;
-    margin-left: -210px;
+    width: 255px;
+    height:255px;
+    margin-top: -220px;
+    margin-left: -180px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -287,7 +287,7 @@ span:hover
     width: 33px;
     height: 33px;
     margin-top: -15px;
-    margin-left: -70px;
+    margin-left: -63px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -307,10 +307,10 @@ span:hover
     top: 55%;
     left: 65%;
 
-    width: 375px;
-    height:375px;
-    margin-top: -270px;
-    margin-left: -240px;
+    width: 320px;
+    height:320px;
+    margin-top: -250px;
+    margin-left: -215px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -338,10 +338,10 @@ span:hover
     top: 55%;
     left: 65%;
 
-    width: 550px;
-    height:550px;
-    margin-top: -350px;
-    margin-left: -280px;
+    width: 465px;
+    height:465px;
+    margin-top: -315px;
+    margin-left: -286px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -371,10 +371,10 @@ span:hover
     top: 55%;
     left: 65%;
 
-    width: 660px;
-    height:660px;
-    margin-top: -380px;
-    margin-left: -330px;
+    width: 600px;
+    height:600px;
+    margin-top: -360px;
+    margin-left: -350px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -404,8 +404,8 @@ span:hover
 
     width: 700px;
     height:700px;
-    margin-top: -380px;
-    margin-left: -330px;
+    margin-top: -400px;
+    margin-left: -390px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -433,10 +433,10 @@ span:hover
     top: 55%;
     left: 65%;
 
-    width: 750px;
-    height:750px;
-    margin-top: -415px;
-    margin-left: -330px;
+    width: 770px;
+    height:770px;
+    margin-top: -425px;
+    margin-left: -420px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;

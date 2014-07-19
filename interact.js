@@ -78,11 +78,11 @@ function sunInfo()
     var br3 = document.createElement("br");
     var br4 = document.createElement("br");
     var info = document.createElement("p");
-    var node2 = document.createTextNode("Distance from Earth: 1.496 x 10^8 km");
-    var node3 = document.createTextNode("Age: 4.6 billion years");
+    var node2 = document.createTextNode("AVG Distance from Earth: 1.496 x 10^8 km");
+    var node3 = document.createTextNode("Age: ~4.6 billion years");
     var node4 = document.createTextNode("Diameter: 1,391,684 km");
-    var node5 = document.createTextNode("Mass: 333,000 x Earth");
-    var node6 = document.createTextNode("Gravitational Acceleration: 273.13 m/s^2");
+    var node5 = document.createTextNode("Mass: 1.9891 x 10^30 kg");
+    var node6 = document.createTextNode("Gravitational Acc.: 273.13 m/s^2 OR 27.95 g");
     
     info.appendChild(node2);
     info.appendChild(br);
@@ -122,6 +122,33 @@ function mercuryInfo()
     img.style.height = "350px";
     img.style.height = "350px";
     src.appendChild(img);
+    
+    //info
+    var br = document.createElement("br");
+    var br2 = document.createElement("br");
+    var br3 = document.createElement("br");
+    var br4 = document.createElement("br");
+    var info = document.createElement("p");
+    var node2 = document.createTextNode("AVG Distance from Sun: 57 million km");
+    var node3 = document.createTextNode("Age: ~4.6 billion years");
+    var node4 = document.createTextNode("Diameter: 4,878 km");
+    var node5 = document.createTextNode("Mass: 3.3022 x 10^23 kg");
+    var node6 = document.createTextNode("Gravitational Acc.: 3.59 m/s^2 OR 0.37 g");
+    
+    info.appendChild(node2);
+    info.appendChild(br);
+    info.appendChild(node3);
+    info.appendChild(br2);
+    info.appendChild(node4);
+    info.appendChild(br3);
+    info.appendChild(node5);
+    info.appendChild(br4);
+    info.appendChild(node6);
+    
+    info.style.textAlign = "left";
+    
+    var element2 = document.getElementById("HUD");
+    element2.appendChild(info);
 }
 
 function venusInfo()
@@ -129,6 +156,7 @@ function venusInfo()
     endInfo();
     audio.play();
     
+    //planet name
     var para = document.createElement("h2");
     var node = document.createTextNode("Venus");
     para.appendChild(node);
@@ -138,12 +166,40 @@ function venusInfo()
     element.style.textAlign = "center";
     element.style.fontFamily = "Finger Paint";
     
+    //photo
     var img = document.createElement("img");
     img.src = "images/venus.png";
     var src = document.getElementById("HUD");
     img.style.height = "400px";
     img.style.height = "400px";
     src.appendChild(img);
+    
+    //info
+    var br = document.createElement("br");
+    var br2 = document.createElement("br");
+    var br3 = document.createElement("br");
+    var br4 = document.createElement("br");
+    var info = document.createElement("p");
+    var node2 = document.createTextNode("AVG Distance from Sun: 108 million km");
+    var node3 = document.createTextNode("Age: ~4.6 billion years");
+    var node4 = document.createTextNode("Diameter: 12,100 km");
+    var node5 = document.createTextNode("Mass: 4.8685 x 10^24 kg");
+    var node6 = document.createTextNode("Gravitational Acc.: 8.87 m/s^2 OR 0.90 g");
+    
+    info.appendChild(node2);
+    info.appendChild(br);
+    info.appendChild(node3);
+    info.appendChild(br2);
+    info.appendChild(node4);
+    info.appendChild(br3);
+    info.appendChild(node5);
+    info.appendChild(br4);
+    info.appendChild(node6);
+    
+    info.style.textAlign = "left";
+    
+    var element2 = document.getElementById("HUD");
+    element2.appendChild(info);
 }
 
 function earthInfo()
@@ -151,6 +207,7 @@ function earthInfo()
     endInfo();
     audio.play();
     
+    //planet name
     var para = document.createElement("h2");
     var node = document.createTextNode("The Earth");
     para.appendChild(node);
@@ -160,12 +217,40 @@ function earthInfo()
     element.style.textAlign = "center";
     element.style.fontFamily = "Finger Paint";
     
+    //photo
     var img = document.createElement("img");
     img.src = "images/earth.jpg";
     var src = document.getElementById("HUD");
     img.style.height = "250px";
     img.style.height = "250px";
     src.appendChild(img);
+    
+    //info
+    var br = document.createElement("br");
+    var br2 = document.createElement("br");
+    var br3 = document.createElement("br");
+    var br4 = document.createElement("br");
+    var info = document.createElement("p");
+    var node2 = document.createTextNode("AVG Distance from Sun: 150 million km");
+    var node3 = document.createTextNode("Age: ~4.6 billion years");
+    var node4 = document.createTextNode("Diameter: 12,742 km");
+    var node5 = document.createTextNode("Mass: 5.9736 x 10^24 kg");
+    var node6 = document.createTextNode("Gravitational Acc.: 9.81 m/s^2 OR 1 g");
+    
+    info.appendChild(node2);
+    info.appendChild(br);
+    info.appendChild(node3);
+    info.appendChild(br2);
+    info.appendChild(node4);
+    info.appendChild(br3);
+    info.appendChild(node5);
+    info.appendChild(br4);
+    info.appendChild(node6);
+    
+    info.style.textAlign = "left";
+    
+    var element2 = document.getElementById("HUD");
+    element2.appendChild(info);
 }
 
 function moonInfo()
@@ -190,6 +275,33 @@ function moonInfo()
     img.style.height = "350px";
     img.style.height = "350px";
     src.appendChild(img);
+    
+    //info
+    var br = document.createElement("br");
+    var br2 = document.createElement("br");
+    var br3 = document.createElement("br");
+    var br4 = document.createElement("br");
+    var info = document.createElement("p");
+    var node2 = document.createTextNode("AVG Distance from Earth: 1.496 x 10^8 km");
+    var node3 = document.createTextNode("Age: ~4.6 billion years");
+    var node4 = document.createTextNode("Diameter: 3,473 km");
+    var node5 = document.createTextNode("Mass: 7.349 x 10^22 kg");
+    var node6 = document.createTextNode("Gravitational Acc.: 1.62 m/s^2 OR 0.17 g");
+    
+    info.appendChild(node2);
+    info.appendChild(br);
+    info.appendChild(node3);
+    info.appendChild(br2);
+    info.appendChild(node4);
+    info.appendChild(br3);
+    info.appendChild(node5);
+    info.appendChild(br4);
+    info.appendChild(node6);
+    
+    info.style.textAlign = "left";
+    
+    var element2 = document.getElementById("HUD");
+    element2.appendChild(info);
 }
 
 function marsInfo()
@@ -214,6 +326,33 @@ function marsInfo()
     img.style.height = "350px";
     img.style.height = "350px";
     src.appendChild(img);
+    
+    //info
+    var br = document.createElement("br");
+    var br2 = document.createElement("br");
+    var br3 = document.createElement("br");
+    var br4 = document.createElement("br");
+    var info = document.createElement("p");
+    var node2 = document.createTextNode("AVG Distance from Sun: 228 million km");
+    var node3 = document.createTextNode("Age: ~4.6 billion years");
+    var node4 = document.createTextNode("Diameter: 6,779 km");
+    var node5 = document.createTextNode("Mass: 6.4185 x 10^23 kg");
+    var node6 = document.createTextNode("Gravitational Acc.: 3.77 m/s^2 OR 0.38 g");
+    
+    info.appendChild(node2);
+    info.appendChild(br);
+    info.appendChild(node3);
+    info.appendChild(br2);
+    info.appendChild(node4);
+    info.appendChild(br3);
+    info.appendChild(node5);
+    info.appendChild(br4);
+    info.appendChild(node6);
+    
+    info.style.textAlign = "left";
+    
+    var element2 = document.getElementById("HUD");
+    element2.appendChild(info);
 }
 
 function jupiterInfo()
@@ -238,6 +377,33 @@ function jupiterInfo()
     img.style.height = "350px";
     img.style.height = "350px";
     src.appendChild(img);
+    
+    //info
+    var br = document.createElement("br");
+    var br2 = document.createElement("br");
+    var br3 = document.createElement("br");
+    var br4 = document.createElement("br");
+    var info = document.createElement("p");
+    var node2 = document.createTextNode("AVG Distance from Sun: 779 million km");
+    var node3 = document.createTextNode("Age: ~4.6 billion years");
+    var node4 = document.createTextNode("Diameter: 142,981 km");
+    var node5 = document.createTextNode("Mass: 1.8986 x 10^27 kg");
+    var node6 = document.createTextNode("Gravitational Acc.: 25.95 m/s^2 OR 2.65g");
+    
+    info.appendChild(node2);
+    info.appendChild(br);
+    info.appendChild(node3);
+    info.appendChild(br2);
+    info.appendChild(node4);
+    info.appendChild(br3);
+    info.appendChild(node5);
+    info.appendChild(br4);
+    info.appendChild(node6);
+    
+    info.style.textAlign = "left";
+    
+    var element2 = document.getElementById("HUD");
+    element2.appendChild(info);
 }
 
 function saturnInfo()
@@ -262,6 +428,33 @@ function saturnInfo()
     img.style.height = "350px";
     img.style.height = "350px";
     src.appendChild(img);
+    
+    //info
+    var br = document.createElement("br");
+    var br2 = document.createElement("br");
+    var br3 = document.createElement("br");
+    var br4 = document.createElement("br");
+    var info = document.createElement("p");
+    var node2 = document.createTextNode("AVG Distance from Sun:1.43 billion km");
+    var node3 = document.createTextNode("Age: ~4.6 billion years");
+    var node4 = document.createTextNode("Diameter: 120,536 km");
+    var node5 = document.createTextNode("Mass: 5.6846 x 10^26 kg");
+    var node6 = document.createTextNode("Gravitational Acc.: 11.08 m/s^2 OR 1.13 g");
+    
+    info.appendChild(node2);
+    info.appendChild(br);
+    info.appendChild(node3);
+    info.appendChild(br2);
+    info.appendChild(node4);
+    info.appendChild(br3);
+    info.appendChild(node5);
+    info.appendChild(br4);
+    info.appendChild(node6);
+    
+    info.style.textAlign = "left";
+    
+    var element2 = document.getElementById("HUD");
+    element2.appendChild(info);
 }
 
 function uranusInfo()
@@ -286,6 +479,33 @@ function uranusInfo()
     img.style.height = "350px";
     img.style.height = "350px";
     src.appendChild(img);
+    
+    //info
+    var br = document.createElement("br");
+    var br2 = document.createElement("br");
+    var br3 = document.createElement("br");
+    var br4 = document.createElement("br");
+    var info = document.createElement("p");
+    var node2 = document.createTextNode("AVG Distance from Sun: 2.88 billion km");
+    var node3 = document.createTextNode("Age: ~4.6 billion years");
+    var node4 = document.createTextNode("Diameter: 51,118 km");
+    var node5 = document.createTextNode("Mass: 8.6810 x 10^25 kg");
+    var node6 = document.createTextNode("Gravitational Acc.: 10.67 m/s^2 OR 1.09 g");
+    
+    info.appendChild(node2);
+    info.appendChild(br);
+    info.appendChild(node3);
+    info.appendChild(br2);
+    info.appendChild(node4);
+    info.appendChild(br3);
+    info.appendChild(node5);
+    info.appendChild(br4);
+    info.appendChild(node6);
+    
+    info.style.textAlign = "left";
+    
+    var element2 = document.getElementById("HUD");
+    element2.appendChild(info);
 }
 
 function neptuneInfo()
@@ -310,6 +530,33 @@ function neptuneInfo()
     img.style.height = "350px";
     img.style.height = "350px";
     src.appendChild(img);
+    
+    //info
+    var br = document.createElement("br");
+    var br2 = document.createElement("br");
+    var br3 = document.createElement("br");
+    var br4 = document.createElement("br");
+    var info = document.createElement("p");
+    var node2 = document.createTextNode("AVG Distance from Sun: 4.50 billion km");
+    var node3 = document.createTextNode("Age: ~4.6 billion years");
+    var node4 = document.createTextNode("Diameter: 49,500 km");
+    var node5 = document.createTextNode("Mass: 10.243 x 10^25 kg");
+    var node6 = document.createTextNode("Gravitational Acc.: 14.07 m/s^2 OR 1.43 g");
+    
+    info.appendChild(node2);
+    info.appendChild(br);
+    info.appendChild(node3);
+    info.appendChild(br2);
+    info.appendChild(node4);
+    info.appendChild(br3);
+    info.appendChild(node5);
+    info.appendChild(br4);
+    info.appendChild(node6);
+    
+    info.style.textAlign = "left";
+    
+    var element2 = document.getElementById("HUD");
+    element2.appendChild(info);
 }
 
 function endInfo()
