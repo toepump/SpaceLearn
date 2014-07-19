@@ -559,6 +559,19 @@ function neptuneInfo()
     element2.appendChild(info);
 }
 
+function instruct()
+{
+    //planet name
+    var para = document.createElement("p");
+    var node = document.createTextNode("Discover Planets by Clicking STOP and Then Moving Your Mouse Over Them");
+    para.appendChild(node);
+    var element = document.getElementById("HUD");
+    element.appendChild(para);
+    element.style.color = "white";
+    element.style.textAlign = "center";
+    element.style.fontFamily = "Finger Paint";
+}
+
 function endInfo()
 {
     var hud = document.getElementById("HUD").innerHTML = "";
