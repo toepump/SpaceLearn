@@ -24,7 +24,7 @@ html, body {
     float:left;
     width:400px;
     height:100%;
-    border-right:solid grey 5px;
+    border-right:solid grey 1px;
 }
 
 
@@ -55,8 +55,8 @@ span:hover
     left: 65%;
     
     /* Play with these numbers to see what it does */
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     margin-top: -100px; 
     margin-left: -100px;
     
@@ -75,8 +75,8 @@ span:hover
     top: -3px;
     left: 50%;
     
-    height: 10px;
-    width: 10px;
+    height: 6px;
+    width: 6px;
     margin-left: -25px;
     margin-right: -25px;
     
@@ -92,8 +92,8 @@ span:hover
     top: -8.5px;
     left: 50%;
     
-    height: 17px;
-    width: 17px;
+    height: 8px;
+    width: 8px;
     margin-left: -25px;
     margin-right: -25px;
     
@@ -111,8 +111,8 @@ span:hover
     top: -10px;
     left: 50%;
     
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     margin-left: -25px;
     margin-right: -25px;
     
@@ -132,8 +132,8 @@ span:hover
     position:absolute;
     top:-2px;
     left: 50%;
-    width:3px;
-    height:3px;
+    width:1px;
+    height:1px;
     border-radius:50%;
     border:solid white 1px;
     
@@ -146,8 +146,8 @@ span:hover
     position:absolute;
     top:-10px;
     left: 50%;
-    width:20px;
-    height:20px;
+    width:13px;
+    height:13px;
     border-radius:50%;
     
     box-shadow: 0 0 30px white;
@@ -159,8 +159,8 @@ span:hover
     position:absolute;
     top:-17px;
     left: 50%;
-    width:40px;
-    height:40px;
+    width:35px;
+    height:35px;
     border-radius:50%;
     
     box-shadow: 0 0 30px white;
@@ -172,8 +172,8 @@ span:hover
     position:absolute;
     top:-25px;
     left: 50%;
-    width:50px;
-    height:50px;
+    width:45px;
+    height:45px;
 /*    border-radius:50%;*/
 }
 
@@ -183,8 +183,8 @@ span:hover
     position:absolute;
     top:-15px;
     left: 50%;
-    width:35px;
-    height:35px;
+    width:30px;
+    height:30px;
 /*    border-radius:50%;*/
 }
 
@@ -194,8 +194,8 @@ span:hover
     position:absolute;
     top:-15px;
     left: 50%;
-    width:30px;
-    height:30px;
+    width:27px;
+    height:27px;
 /*    border-radius:50%;*/
 }
 
@@ -206,9 +206,9 @@ span:hover
     top: 50%;
     left: 65%;
 
-    width: 130px;
-    height:130px;
-    margin-top: -115px;
+    width: 100px;
+    height:100px;
+    margin-top: -110px;
     margin-left: -110px;
 
 /*    border:dotted white 1px;*/
@@ -234,10 +234,10 @@ span:hover
     top: 50%;
     left: 65%;
 
-    width: 175px;
-    height:175px;
-    margin-top: -140px;
-    margin-left: -135px;
+    width: 136px;
+    height:136px;
+    margin-top: -130px;
+    margin-left: -130px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -256,10 +256,10 @@ span:hover
     top: 55%;
     left: 65%;
 
-    width: 255px;
-    height:255px;
-    margin-top: -220px;
-    margin-left: -180px;
+    width: 210px;
+    height:210px;
+    margin-top: -210px;
+    margin-left: -170px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -284,10 +284,10 @@ span:hover
     top: 0%;
     left: 63%;
 
-    width: 33px;
-    height: 33px;
+    width: 25px;
+    height: 25px;
     margin-top: -15px;
-    margin-left: -63px;
+    margin-left: -55px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -307,10 +307,10 @@ span:hover
     top: 55%;
     left: 65%;
 
-    width: 320px;
-    height:320px;
-    margin-top: -250px;
-    margin-left: -215px;
+    width: 270px;
+    height:270px;
+    margin-top: -240px;
+    margin-left: -200px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -338,10 +338,10 @@ span:hover
     top: 55%;
     left: 65%;
 
-    width: 465px;
-    height:465px;
-    margin-top: -315px;
-    margin-left: -286px;
+    width: 380px;
+    height:380px;
+    margin-top: -300px;
+    margin-left: -260px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -371,10 +371,10 @@ span:hover
     top: 55%;
     left: 65%;
 
-    width: 600px;
-    height:600px;
+    width: 510px;
+    height:510px;
     margin-top: -360px;
-    margin-left: -350px;
+    margin-left: -325px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;
@@ -402,8 +402,8 @@ span:hover
     top: 55%;
     left: 65%;
 
-    width: 700px;
-    height:700px;
+    width: 650px;
+    height:650px;
     margin-top: -400px;
     margin-left: -390px;
 
@@ -433,10 +433,10 @@ span:hover
     top: 55%;
     left: 65%;
 
-    width: 770px;
-    height:770px;
+    width: 750px;
+    height:750px;
     margin-top: -425px;
-    margin-left: -420px;
+    margin-left: -430px;
 
 /*    border:dotted white 1px;*/
     border-radius: 50%;

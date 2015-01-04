@@ -2,7 +2,7 @@ var audio = new Audio("sounds/pop.mp3");
 var play = true;
 
 myaud = document.getElementById("aud");
-myaud.volume=.2;
+myaud.volume = 0.2;
 
 function control()
 {
