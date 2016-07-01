@@ -1,7 +1,5 @@
 SpaceLearn
 ==========
-Inspired by a lesson on CodeAcademy.com.
-
 This is a small project with the goal of teaching the names, features, and facts associated with the planets/moons 
 of our solar system.
 
